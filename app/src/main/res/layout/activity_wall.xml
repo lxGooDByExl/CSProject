@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.example.csproject.WallActivity">
+
+    <EditText
+        android:id="@+id/editPost"
+        android:layout_width="338dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="@string/post_hint"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollPost"
+        android:layout_width="match_parent"
+        android:layout_height="437dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="48dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/editPost"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="USERNAME, ACC_TYPE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Epsilorem epsidfl asdf asd asdfasdfasdf asdf asdfasfdad fa dfa dsf f qwe f as df asd fqw efa dsf asdf asdf asd fasd fasdf asdfas df asd fa sdf asd fas dfa sdf asd fa sdf asd fas df asdf asd fas dfa dsa" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="USERNAME, ACC_TYPE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Epsilorem epsidfl asdf asd asdfasdfasdf asdf asdfasfdad fa dfa dsf f qwe f as df asd fqw efa dsf asdf asdf asd fasd fasdf asdfas df asd fa sdf asd fas dfa sdf asd fa sdf asd fas df asdf asd fas dfa dsa"/>
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="USERNAME, ACC_TYPE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Epsilorem epsidfl asdf asd asdfasdfasdf asdf asdfasfdad fa dfa dsf f qwe f as df asd fqw efa dsf asdf asdf asd fasd fasdf asdfas df asd fa sdf asd fas dfa sdf asd fa sdf asd fas df asdf asd fas dfa dsa"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="USERNAME, ACC_TYPE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Epsilorem epsidfl asdf asd asdfasdfasdf asdf asdfasfdad fa dfa dsf f qwe f as df asd fqw efa dsf asdf asdf asd fasd fasdf asdfas df asd fa sdf asd fas dfa sdf asd fa sdf asd fas df asdf asd fas dfa dsa" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="USERNAME, ACC_TYPE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Epsilorem epsidfl asdf asd asdfasdfasdf asdf asdfasfdad fa dfa dsf f qwe f as df asd fqw efa dsf asdf asdf asd fasd fasdf asdfas df asd fa sdf asd fas dfa sdf asd fa sdf asd fas df asdf asd fas dfa dsa" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="USERNAME, ACC_TYPE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Epsilorem epsidfl asdf asd asdfasdfasdf asdf asdfasfdad fa dfa dsf f qwe f as df asd fqw efa dsf asdf asdf asd fasd fasdf asdfas df asd fa sdf asd fas dfa sdf asd fa sdf asd fas df asdf asd fas dfa dsa" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="USERNAME, ACC_TYPE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Epsilorem epsidfl asdf asd asdfasdfasdf asdf asdfasfdad fa dfa dsf f qwe f as df asd fqw efa dsf asdf asdf asd fasd fasdf asdfas df asd fa sdf asd fas dfa sdf asd fa sdf asd fas df asdf asd fas dfa dsa"/>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="USERNAME, ACC_TYPE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Epsilorem epsidfl asdf asd asdfasdfasdf asdf asdfasfdad fa dfa dsf f qwe f as df asd fqw efa dsf asdf asdf asd fasd fasdf asdfas df asd fa sdf asd fas dfa sdf asd fa sdf asd fas df asdf asd fas dfa dsa"/>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="USERNAME, ACC_TYPE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Epsilorem epsidfl asdf asd asdfasdfasdf asdf asdfasfdad fa dfa dsf f qwe f as df asd fqw efa dsf asdf asdf asd fasd fasdf asdfas df asd fa sdf asd fas dfa sdf asd fa sdf asd fas df asdf asd fas dfa dsa"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="26dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvMANCOM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MANCOM" />
+
+        <TextView
+            android:id="@+id/tvSG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SG" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

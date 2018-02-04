@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pisay Hub</string>
+    <string name="login_button">Login</string>
+    <string name="register"><u>Register</u></string>
+    <string name="submit_button">Submit</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail</string>
+    <string name="account_type">Account Type</string>
+    <string name="account_teacher">Teacher</string>
+    <string name="account_student">Student</string>
+    <string name="sex">Sex</string>
+    <string name="sex_male">Male</string>
+    <string name="sex_female">Female</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="A_U">About Us</string>
+    <string name="post_hint">Share your thoughts...</string>
+</resources>
